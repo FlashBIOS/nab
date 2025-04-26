@@ -4,3 +4,16 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    reviewers:
+      - "FlashBIOS"
+    labels:
+      - "enhancement"
+  # Enable version updates for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/" # Location of workflow files, usually root
+    schedule:
+      interval: "daily" # How often to check for updates (daily, weekly, monthly)
+    reviewers:
+      - "FlashBIOS"
+    labels:
+      - "enhancement"
