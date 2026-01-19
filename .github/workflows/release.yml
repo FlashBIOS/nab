@@ -18,7 +18,7 @@ jobs:
           fetch-depth: 0  # Fetch all branches
 
       - name: Generate Changelog with Release Drafter
-        uses: release-drafter/release-drafter@v6.1.0
+        uses: release-drafter/release-drafter@v6.1.1
         id: generate_changelog
         if: ${{ !env.ACT }}
         with:
